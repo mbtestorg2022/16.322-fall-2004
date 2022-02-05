@@ -4,34 +4,353 @@ title: Calendar
 uid: 95f106f5-a4f3-2026-4892-0f835aaf6094
 ---
 
-| LEC # | TOPICS |
-| --- | --- |
-| 1 | Introduction  {{< br >}}  {{< br >}}Random Signals  {{< br >}}  {{< br >}}Intuitive Notion of Probability  {{< br >}}  {{< br >}}Axiomatic Probability  {{< br >}}  {{< br >}}Joint and Conditional Probability |
-| 2 | Independence  {{< br >}}  {{< br >}}Random Variables  {{< br >}}  {{< br >}}Probability Distribution and Density Functions |
-| 3 | Expectation, Averages and Characteristic Function  {{< br >}}  {{< br >}}Normal or Gaussian Random Variables  {{< br >}}  {{< br >}}Impulsive Probability Density Functions  {{< br >}}  {{< br >}}Multiple Random Variables |
-| 4 | Correlation, Covariance, and Orthogonality  {{< br >}}  {{< br >}}Sum of Independent Random Variables and Tendency Toward Normal Distribution  {{< br >}}  {{< br >}}Transformation of Random Variables |
-| 5 | Some Common Distributions |
-| 6 | More Common Distributions  {{< br >}}  {{< br >}}Multivariate Normal Density Function  {{< br >}}  {{< br >}}Linear Transformation and General Properties of Normal Random Variables |
-| 7 | Linearized Error Propagation |
-| 8 | More Linearized Error Propagation |
-| 9 | Concept of a Random Process  {{< br >}}  {{< br >}}Probabilistic Description of a Random Process  {{< br >}}  {{< br >}}Gaussian Random Process  {{< br >}}  {{< br >}}Stationarity, Ergodicity, and Classification of Processes |
-| 10 | Autocorrelation Function  {{< br >}}  {{< br >}}Crosscorrelation Function |
-| 11 | Power Spectral Density Function  {{< br >}}  {{< br >}}Cross Spectral Density Function  {{< br >}}  {{< br >}}White Noise |
-| &nbsp; | Quiz 1 (Covers Sections 1-11) |
-| 12 | Gauss-Markov Process  {{< br >}}  {{< br >}}Random Telegraph Wave  {{< br >}}  {{< br >}}Wiener or Brownian-Motion Process |
-| 13 | Determination of Autocorrelation and Spectral Density Functions from Experimental Data |
-| 14 | Introduction: The Analysis Problem  {{< br >}}  {{< br >}}Stationary (Steady-State) Analysis  {{< br >}}  {{< br >}}Integral Tables for Computing Mean-Square Value |
-| 15 | Pure White Noise and Bandlimited Systems  {{< br >}}  {{< br >}}Noise Equivalent Bandwidth  {{< br >}}  {{< br >}}Shaping Filter |
-| 16 | Nonstationary (Transient) Analysis - Initial Condition Response  {{< br >}}  {{< br >}}Nonstationary (Transient) Analysis - Forced Response |
-| 17 | The Wiener Filter Problem  {{< br >}}  {{< br >}}Optimization with Respect to a Parameter |
-| 18 | The Stationary Optimization Problem - Weighting Function Approach  {{< br >}}  {{< br >}}Orthogonality |
-| 19 | Complementary Filter  {{< br >}}  {{< br >}}Perspective |
-| 20 | Estimation  {{< br >}}  {{< br >}}A Simple Recursive Example |
-| &nbsp; | Quiz 2 (Covers Sections 12-20) |
-| 21 | Markov Processes |
-| 22 | State Space Description  {{< br >}}  {{< br >}}Vector Description of a Continuous-Time Random Process  {{< br >}}  {{< br >}}Discrete-Time Model  |
-| 23 | Monte Carlo Simulation of Discrete-Time Systems  {{< br >}}  {{< br >}}The Discrete Kalman Filter  {{< br >}}  {{< br >}}Scalar Kalman Filter Examples |
-| 24 | Transition from the Discrete to Continuous Filter Equations  {{< br >}}  {{< br >}}Solution of the Matrix Riccati Equation |
-| 25 | Divergence Problems |
-| 26 | Complementary Filter Methodology  {{< br >}}  {{< br >}}INS Error Models  {{< br >}}  {{< br >}}Damping the Schuler Oscillation with External Velocity Reference Information |
-| &nbsp; | Final Exam
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction  
+  
+Random Signals  
+  
+Intuitive Notion of Probability  
+  
+Axiomatic Probability  
+  
+Joint and Conditional Probability
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Independence  
+  
+Random Variables  
+  
+Probability Distribution and Density Functions
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Expectation, Averages and Characteristic Function  
+  
+Normal or Gaussian Random Variables  
+  
+Impulsive Probability Density Functions  
+  
+Multiple Random Variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Correlation, Covariance, and Orthogonality  
+  
+Sum of Independent Random Variables and Tendency Toward Normal Distribution  
+  
+Transformation of Random Variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Some Common Distributions
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+More Common Distributions  
+  
+Multivariate Normal Density Function  
+  
+Linear Transformation and General Properties of Normal Random Variables
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Linearized Error Propagation
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+More Linearized Error Propagation
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Concept of a Random Process  
+  
+Probabilistic Description of a Random Process  
+  
+Gaussian Random Process  
+  
+Stationarity, Ergodicity, and Classification of Processes
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Autocorrelation Function  
+  
+Crosscorrelation Function
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Power Spectral Density Function  
+  
+Cross Spectral Density Function  
+  
+White Noise
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 (Covers Sections 1-11)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Gauss-Markov Process  
+  
+Random Telegraph Wave  
+  
+Wiener or Brownian-Motion Process
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Determination of Autocorrelation and Spectral Density Functions from Experimental Data
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction: The Analysis Problem  
+  
+Stationary (Steady-State) Analysis  
+  
+Integral Tables for Computing Mean-Square Value
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Pure White Noise and Bandlimited Systems  
+  
+Noise Equivalent Bandwidth  
+  
+Shaping Filter
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Nonstationary (Transient) Analysis - Initial Condition Response  
+  
+Nonstationary (Transient) Analysis - Forced Response
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+The Wiener Filter Problem  
+  
+Optimization with Respect to a Parameter
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+The Stationary Optimization Problem - Weighting Function Approach  
+  
+Orthogonality
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Complementary Filter  
+  
+Perspective
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Estimation  
+  
+A Simple Recursive Example
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 (Covers Sections 12-20)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Markov Processes
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+State Space Description  
+  
+Vector Description of a Continuous-Time Random Process  
+  
+Discrete-Time Model 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Monte Carlo Simulation of Discrete-Time Systems  
+  
+The Discrete Kalman Filter  
+  
+Scalar Kalman Filter Examples
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Transition from the Discrete to Continuous Filter Equations  
+  
+Solution of the Matrix Riccati Equation
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Divergence Problems
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Complementary Filter Methodology  
+  
+INS Error Models  
+  
+Damping the Schuler Oscillation with External Velocity Reference Information
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Final Exam
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
